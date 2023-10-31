@@ -65,5 +65,3 @@ We welcome contributions from the open-source community! If you'd like to contri
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 ```
-
-You can copy and paste this code into your README.md file on GitHub, replacing the placeholder URLs and text with your actual project information.

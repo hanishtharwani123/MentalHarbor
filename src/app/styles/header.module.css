@@ -1,0 +1,368 @@
+/* Header Styles */
+.header {
+    width: 100%;
+    padding: 12px 38px;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    top: 0;
+    background: #07c59d;
+    height: 70px;
+    z-index: 999;
+}
+
+.header.scrolled {
+    background-color: #333;
+}
+
+/* Nav Styles */
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comb {
+    display: flex;
+}
+
+/* Logo Styles */
+.logo {
+    font-size: 31px;
+    color: #fff;
+    list-style: none;
+    font-weight: 700;
+}
+
+.logo1 {
+    font-size: 31px;
+    color: #ff01a0;
+    list-style: none;
+    font-weight: 700;
+}
+
+.logo_link {
+    text-decoration: none;
+}
+
+/* Hamburger Icon Styles */
+.menuButton {
+    position: absolute;
+    top: 10px;
+    right: 28px;
+    cursor: pointer;
+    font-size: 37px;
+    color: #fff;
+}
+
+/* Menu Styles */
+.un_list {
+    list-style: none;
+    display: flex;
+    margin-right: 60px;
+}
+
+.list_sty {
+    font-size: 17px;
+    color: #fff;
+    margin-left: 54px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+
+.list_sty:hover {
+    color: #2f2f2f;
+}
+
+.port {
+    text-decoration: none;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.btn {
+    width: 163px;
+    padding: 14px 18px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 40px;
+    background-color: #ff01a0;
+    margin-left: 38px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: -1px;
+    color: #fff;
+}
+
+/* Show the menu when the class is applied */
+.showMenu .un_list {
+    display: block;
+   /* Stack menu items in a column */
+
+}
+
+/* Style for the close button (three bars) */
+.closeButton {
+    position: absolute;
+    top: 15px;
+    right: 28px;
+    cursor: pointer;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Media Query for Screen Width <= 1132px */
+@media screen and (max-width: 1132px) {
+    .list_sty {
+        font-size: 15px;
+        color: #fff;
+        margin-left: 38px;
+        margin-top: 14px;
+        cursor: pointer;
+        font-weight: 700;
+        transition: 0.3s ease-in-out;
+    }
+
+    .btn {
+        width: 133px;
+        padding: 14px 18px;
+        text-align: center;
+        font-size: 12px;
+        border: none;
+        border-radius: 40px;
+        background-color: #ff01a0;
+        margin-left: 38px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: -1px;
+        color: #fff;
+    }
+
+    .logo {
+        font-size: 28px;
+        color: #fff;
+        list-style: none;
+        font-weight: 700;
+    }
+
+    .logo1 {
+        font-size: 28px;
+        color: #ff01a0;
+        list-style: none;
+        font-weight: 700;
+    }
+
+    .un_list {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .menuButton {
+        display: inline-block;
+    }
+
+    .un_list{
+        background: #ff01a0;
+        margin-top: 58px;
+        position: absolute;
+        height: 786px;
+        width: 247px;
+        margin-left: -38px;
+    }
+
+    .list_sty {
+        font-size: 16px;
+        color: #fff;
+        margin-left: 100px;
+        margin-top: 56px;
+        cursor: pointer;
+        font-weight: 700;
+        transition: 0.3s ease-in-out;
+        /* text-align: center; */
+    }
+}
+
+
+
+@media screen and (min-width: 1133px) {
+    .menuButton {
+        display: none;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .list_sty{
+        font-size: 15px;
+        color: #fff;
+        margin-left: 38px;
+        margin-top: 14px;
+        cursor: pointer;
+        font-weight: 700;
+        transition: 0.3s ease-in-out;
+    }
+
+    .btn {
+        width: 104px;
+        padding: 11px 2px;
+        text-align: center;
+        font-size: 11px;
+        border: none;
+        border-radius: 40px;
+        background-color: #ff01a0;
+        margin-left: 38px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: -1px;
+        color: #fff;
+        display: none;
+    }
+
+    .logo {
+        font-size: 23px;
+        color: #fff;
+        list-style: none;
+        font-weight: 700;
+    }
+
+    .logo1{
+        font-size: 23px;
+        color: #ff01a0;
+        list-style: none;
+        font-weight: 700;
+    }
+
+    .header {
+        width: 100%;
+        padding: 15px 18px;
+        transition: background-color 0.3s ease;
+        position: fixed;
+        top: 0;
+        background: #07c59d;
+        height: 63px;
+        z-index: 999;
+    }
+
+    .un_list {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .menuButton {
+        display: inline-block;
+    }
+
+    .un_list{
+        background: #ff01a0;
+        margin-top: 58px;
+        position: absolute;
+        height: 786px;
+        width: 247px;
+        margin-left: -38px;
+    }
+
+    .list_sty {
+        font-size: 16px;
+        color: #fff;
+        margin-left: 100px;
+        margin-top: 56px;
+        cursor: pointer;
+        font-weight: 700;
+        transition: 0.3s ease-in-out;
+        /* text-align: center; */
+    }
+}
+
+@media screen and (max-width:349px) {
+    .list_sty{
+        font-size: 15px;
+        color: #fff;
+        margin-left: 38px;
+        margin-top: 14px;
+        cursor: pointer;
+        font-weight: 700;
+        transition: 0.3s ease-in-out;
+    }
+
+    .btn {
+        width: 88px;
+        padding: 11px 2px;
+        text-align: center;
+        font-size: 10px;
+        border: none;
+        border-radius: 40px;
+        background-color: #ff01a0;
+        margin-left: 38px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: -1px;
+        color: #fff;
+        display: none;
+    }
+
+    .logo {
+        font-size: 20px;
+        color: #fff;
+        list-style: none;
+        font-weight: 700;
+    }
+
+    .logo1{
+        font-size: 20px;
+        color: #ff01a0;
+        list-style: none;
+        font-weight: 700;
+    }
+
+    .header {
+        width: 100%;
+        padding: 18px 5px;
+        transition: background-color 0.3s ease;
+        position: fixed;
+        top: 0;
+        background: #07c59d;
+        height: 63px;
+        z-index: 999;
+    }
+
+    .un_list {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .menuButton {
+        display: inline-block;
+    }
+
+    .un_list{
+        background: #ff01a0;
+        margin-top: 58px;
+        position: absolute;
+        height: 786px;
+        width: 247px;
+        margin-left: -38px;
+    }
+
+    .list_sty {
+        font-size: 16px;
+        color: #fff;
+        margin-left: 100px;
+        margin-top: 56px;
+        cursor: pointer;
+        font-weight: 700;
+        transition: 0.3s ease-in-out;
+        /* text-align: center; */
+    }
+}

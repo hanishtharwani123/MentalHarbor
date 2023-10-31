@@ -1,0 +1,369 @@
+.contact_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+    margin-bottom: 140px;
+}
+
+.box1{
+    width: 500px;
+    height: 570px;
+    background: #ff01a0;
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.box2{
+    width: 500px;
+    height: 570px;
+    background: #fff;
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.query{
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.fly{
+    display: grid;
+    margin-top: 20px;
+    grid-gap: 10px;
+}
+
+.head_name {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600
+}
+
+.input{
+    width: 350px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 15px;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid #cacac9;
+}
+
+.text{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    /*background: transparent;*/
+    /*border-bottom: 2px solid #cacac9;*/
+    outline: none;
+    font-size: 14px;
+    color: #000;
+    padding: 12px;
+}
+
+.send{
+    width: 180px;
+    text-align: center;
+    background: #0e0363;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.contact_us{
+    font-size: 26px;
+    color: #1f1f1f;
+    font-weight: 600;
+}
+
+.we{
+    font-size: 13px;
+    color: #9e9d9d;
+    margin-top: -35px;
+}
+
+.both{
+    display: grid;
+}
+
+.cat1{
+    display: flex;
+}
+
+.add{
+    display: flex;
+    margin-left: 10px;
+}
+
+.icon{
+    margin: -2px 7px;
+    background: #333333;
+    color: #fff;
+    padding: 12px 13px;
+    border-radius: 41px;
+    font-size: 14px;
+}
+
+.address{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.west{
+    font-size: 14px;
+    color: #626060;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.touch{
+    display: grid;
+    grid-gap: 40px;
+    margin-bottom: 68px;
+}
+
+@media screen and (max-width:1132px){
+    .box1 {
+        width: 400px;
+        height: 570px;
+        background: #ff01a0;
+        display: grid;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .input {
+        width: 250px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        font-size: 14px;
+        outline: none;
+        background: transparent;
+        border-bottom: 2px solid #cacac9;
+    }
+
+    .box2 {
+        width: 400px;
+        height: 570px;
+        background: #fff;
+        display: grid;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .address {
+        font-size: 14px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .west{
+        font-size: 12px;
+        color: #626060;
+        font-weight: 500;
+        margin-left: 11px;
+        width: 216px;
+    }
+
+    .send {
+        width: 129px;
+        text-align: center;
+        background: #0e0363;
+        color: #fff;
+        cursor: pointer;
+        padding: 15px;
+        border: 0;
+        border-radius: 4px;
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width:925px){
+    .contact_box {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 110px;
+        margin-bottom: 140px;
+        grid-gap: 48px;
+    }
+}
+
+@media screen and (max-width:479px){
+.box1 {
+    width: 320px;
+    height: 570px;
+    background: #ff01a0;
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.input {
+    width: 250px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 14px;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid #cacac9;
+}
+
+.box2 {
+    width: 320px;
+    height: 570px;
+    background: #fff;
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.address {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+.west{
+    font-size: 10px;
+    color: #626060;
+    font-weight: 500;
+    margin-left: 11px;
+    width: 101px;
+}
+
+.send {
+    width: 129px;
+    text-align: center;
+    background: #0e0363;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.contact_box {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+    margin-bottom: 140px;
+    grid-gap: 48px;
+}
+
+    .we {
+        font-size: 13px;
+        color: #9e9d9d;
+        margin-top: -35px;
+        width: 271px;
+    }
+
+
+}
+
+
+@media screen and (max-width:349px){
+    .box1 {
+        width: 260px;
+        height: 540px;
+        background: #ff01a0;
+        display: grid;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .input {
+        width: 220px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        font-size: 14px;
+        outline: none;
+        background: transparent;
+        border-bottom: 2px solid #cacac9;
+    }
+
+    .box2 {
+        width: 260px;
+        height: 540px;
+        background: #fff;
+        display: grid;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .address {
+        font-size: 14px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .west{
+        font-size: 9px;
+        color: #626060;
+        font-weight: 500;
+        margin-left: 11px;
+        width: 125px;
+    }
+
+    .send {
+        width: 129px;
+        text-align: center;
+        background: #0e0363;
+        color: #fff;
+        cursor: pointer;
+        padding: 15px;
+        border: 0;
+        border-radius: 4px;
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .contact_box {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 110px;
+        margin-bottom: 140px;
+        grid-gap: 48px;
+    }
+
+    .we {
+        font-size: 12px;
+        color: #9e9d9d;
+        margin-top: -35px;
+        width: 207px;
+    }
+
+    .text{
+        width: 220px;
+    }
+
+    .query {
+        font-size: 21px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    .add{
+        display: flex;
+        margin-left: 1px;
+    }
+}

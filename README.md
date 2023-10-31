@@ -1,8 +1,11 @@
 # Mental Harbor - Navigating Mental Wellness
-![Screenshot 2023-10-31 183116](https://github.com/hanishtharwani123/MentalHarbor/assets/104623869/32e7d1f4-4bea-47cc-ad1c-f431a3b494fa)
+
+![Screenshot 2023-10-31 183116](https://github.com/hanishtharwani123/MentalHarbor/assets/104623869/d7d682f8-6942-40de-9437-b51ac2ebd88b)
 
 
 Welcome to Mental Harbor, your online sanctuary for mental health support and guidance. This Next.js-based website provides valuable information, resources, and articles related to mental health.
+
+**Live Demo:** [Mental Harbor Website](https://mental-harbor.vercel.app/)
 
 ## Getting Started
 
@@ -33,11 +36,6 @@ To run this project locally or make any contributions, follow these steps:
 
 4. **Open your browser and navigate to `http://localhost:3000` to view the project locally.**
 
-## Video Demonstration
-
-For a comprehensive video demonstration of the project, watch the following video on our [YouTube channel](https://youtube.com/yourvideolink).
-
-[![Mental Harbor Video](https://your-video-thumbnail-image.com)](https://youtube.com/yourvideolink)
 
 ## Technologies Used
 
@@ -67,3 +65,5 @@ We welcome contributions from the open-source community! If you'd like to contri
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 ```
+
+You can copy and paste this code into your README.md file on GitHub, replacing the placeholder URLs and text with your actual project information.

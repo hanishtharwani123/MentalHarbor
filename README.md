@@ -1,4 +1,4 @@
-# Mental Harbor - Navigating Mental Wellness
+# Mental Harbor - Navigating Mental Wellnes
 
 ![Screenshot 2023-10-31 183116](https://github.com/hanishtharwani123/MentalHarbor/assets/104623869/d7d682f8-6942-40de-9437-b51ac2ebd88b)
 
